@@ -16,7 +16,7 @@ laravel new laravel-vanilla
 
 echo "Configuring Laravel (vanilla)"
 cp -f config/laravel/.env laravel-vanilla/.env
-cp -f tests/laravel/web.php laravel-vanilla/routes/web.php
+cp -f config/laravel/web.php laravel-vanilla/routes/web.php
 
 echo "Installing Laravel (swoole)"
 laravel new laravel-swoole
